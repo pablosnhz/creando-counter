@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {   /*alineando el contenido al centro */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(229, 229, 239);
+}
+
+h1 { /*estilo del counter*/
+    font-size: 2rem;
+    color: rgb(220, 75, 75);
+    margin-bottom: 4rem;
+}
+
+.show { /*estilo del contador*/
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.btns * { /*estilo de los botones*/
+    background-color: transparent;
+    padding: .5rem 1rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    border: #643b3b;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+.reset {
+    margin: 0 1rem 0 1rem;
+}
